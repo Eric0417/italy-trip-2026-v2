@@ -11,16 +11,18 @@ const statusColors = {
 const categoryLabels = { general: '一般', restaurant: '餐廳', attraction: '景點', transport: '交通', hotel: '住宿', other: '其他' }
 const categoryIcons = { general: '💡', restaurant: '🍝', attraction: '🏛️', transport: '🚄', hotel: '🏨', other: '📌' }
 
-const itinerary = useItinerary()
+
+export default function PublicSuggestions() {
+
+  const itinerary = useItinerary()
   const days = itinerary.days || []
 
   function getDayLabel(dayId) {
-  if (!dayId) return '整體建議'
-  const day = days.find(d => d.day === dayId)
-  return day ? `Day ${day.day} · ${day.date}` : `Day ${dayId}`
-}
+    if (!dayId) return '整體建議'
+    const day = days.find(d => d.day === dayId)
+    return day ? `Day ${day.day} · ${day.date}` : `Day ${dayId}`
+  }
 
-export default function PublicSuggestions() {
   const [suggestions, setSuggestions] = useState([])
   const [loading, setLoading] = useState(true)
   const [filter, setFilter] = useState('all')

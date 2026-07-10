@@ -9,17 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
     </head>
   <body>
-        <div id="root"><div style="color:#999;font-family:sans-serif;text-align:center;padding-top:40vh;font-size:18px">⏳ 載入中...</div></div>
+        <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   
-    <script>
-      setTimeout(function(){
-        var root = document.getElementById("root");
-        if (root && root.children.length <= 1) {
-          root.innerHTML = '<div style="color:#B91C1C;font-family:sans-serif;text-align:center;padding-top:30vh;font-size:18px;line-height:2">❌ React 未能成功載入<br><span style="font-size:14px;color:#666">請打開開發者工具 (F12 → Console) 查看錯誤訊息<br>或嘗試強制刷新 (Ctrl+Shift+R)</span></div>';
-        }
-      }, 5000);
-    </script>
-
 </body>
 </html>

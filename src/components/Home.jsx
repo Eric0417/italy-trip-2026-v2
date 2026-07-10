@@ -61,6 +61,7 @@ export default function Home() {
                 >
                   <DayCard
                     day={day}
+                    tripInfo={tripInfo}
                     onClick={() => navigate(`/day/${day.day}`)}
                   />
                 </motion.div>
@@ -73,7 +74,7 @@ export default function Home() {
   )
 }
 
-function DayCard({ day, onClick }) {
+function DayCard({ day, tripInfo, onClick }) {
   const colors = tripInfo?.cityColors?.[day.city] || tripInfo?.cityColors?.["羅馬"] || {}
   const previewEvents = day.events.slice(0, 3)
 

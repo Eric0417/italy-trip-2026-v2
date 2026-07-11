@@ -37,7 +37,7 @@ export const days = [
       { time: "02:15-06:25", type: "✈️ 交通", title: "阿布扎比 → 羅馬 FCO", detail: "EY085，B787-10", budget: "" },
       { time: "07:00-07:32", type: "🚄 交通", title: "Leonardo Express → Roma Termini", detail: "約32分鐘，€14", budget: "€14" },
       { time: "08:00-13:30", type: "🎒 自由活動", title: "Termini周邊閒逛，適應時差", detail: "行李可先寄放酒店", budget: "" },
-      { time: "14:00", type: "🏨 住宿", title: "入住 拿破崙酒店", detail: "★★★★ | Piazza Vittorio Emanuele II 105, 00185 | Tel: +39 06 4467 264", budget: "" },
+      { time: "14:00", type: "🏨 住宿", title: "入住 拿破崙酒店", detail: "★★★★ | Piazza Vittorio Emanuele II 105, 00185 | Tel: +39 06 4467 264 | ❄️ 有冷氣", budget: "" },
       { time: "晚餐", type: "🍝 餐飲", title: "La Famiglia", detail: "家庭式羅馬/阿布魯佐風味，步行可達，人均€15-30", budget: "€15-30" },
     { time: "全天", type: "💡 建議回應", title: "羅馬五日交通券方案", detail: "建議購買 ATAC 週票 CIS (Carta Integrata Settimanale) €24，有效期7天，可無限次搭乘地鐵、巴士、電車。購買地點：任一地鐵站自動售票機或 Tabacchi 煙草店。如不買週票，也可考慮 72小時票 €18 搭配單程票 €1.5。", budget: "€24" },
     { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "拿破崙酒店周邊超市：① Carrefour Express — Via Giovanni Giolitti 近 Termini 車站，步行約6分鐘，營業至22:00。② Conad City — Via Merulana 與 Piazza Vittorio 路口，步行約4分鐘。③ Simply — Piazza Vittorio Emanuele II 市場旁，新鮮蔬果和熟食選擇多。", budget: "" },
@@ -107,7 +107,7 @@ export const days = [
       { time: "11:00", type: "🏨 退房", title: "退房 拿破崙酒店", detail: "", budget: "" },
       { time: "11:55-13:31", type: "🚄 交通", title: "羅馬 → 佛羅倫斯（高鐵）", detail: "約1小時36分", budget: "€40-60" },
       { time: "13:31-14:30", type: "🍝 午餐", title: "車站附近輕食", detail: "披薩/三明治", budget: "€8-12" },
-      { time: "15:00", type: "🏨 住宿", title: "入住 C-安巴夏特利酒店", detail: "★★★★ | Via Alamanni, 3, 50123 | Tel: +39 05 5287 421", budget: "" },
+      { time: "15:00", type: "🏨 住宿", title: "入住 C-安巴夏特利酒店", detail: "★★★★ | Via Alamanni, 3, 50123 | Tel: +39 05 5287 421 | ❄️ 有冷氣", budget: "" },
       { time: "16:00", type: "🎨 景點", title: "烏菲茲美術館 (Uffizi Galleries)", detail: "🎯 已訂票 16:00 ｜世界著名藝術博物館", budget: "€20+" },
       { time: "晚餐", type: "🍝 餐飲", title: "Trattoria Le Mossacce", detail: "⭐⭐ 地道托斯卡納菜，近百年歷史，份量大 €15-25", budget: "€15-25" },
     { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "C-安巴夏特利酒店周邊：① Conad City — Via Nazionale 13，步行約5分鐘，營業至21:00。② Carrefour Express — Via dei Banchi 與車站之間，步行約7分鐘。③ Mercato Centrale（中央市場）— 日間有新鮮食材，晚上部分攤位仍在營業。", budget: "" },
@@ -137,7 +137,7 @@ export const days = [
       { time: "11:00", type: "🏨 退房", title: "退房 C-安巴夏特利酒店", detail: "", budget: "" },
       { time: "11:39-13:42", type: "🚄 交通", title: "佛羅倫斯 → 威尼斯（高鐵）", detail: "約2小時3分", budget: "€40-60" },
       { time: "13:42-14:30", type: "🍝 午餐", title: "梅斯特車站附近 —「小食堂」中餐館", detail: "物美價廉", budget: "€8-12" },
-      { time: "15:00", type: "🏨 住宿", title: "入住 威尼斯廣場酒店", detail: "★★★★ | Viale Stazione, 36, 30171 Venice Mestre | Tel: +39 04 1929 388", budget: "" },
+      { time: "15:00", type: "🏨 住宿", title: "入住 威尼斯廣場酒店", detail: "★★★★ | Viale Stazione, 36, 30171 Venice Mestre | Tel: +39 04 1929 388 | ❄️ 有冷氣", budget: "" },
       { time: "16:00-19:00", type: "🌊 景點", title: "威尼斯主島散步：聖馬可廣場 → 嘆息橋", detail: "傍晚光線最美，遊客較少", budget: "" },
       { time: "晚餐", type: "🍝 餐飲", title: "Osteria \"Alla Staffa\"", detail: "家庭式經營，正宗威尼斯菜：墨魚汁意麵、海鮮", budget: "€15-25" },
     { time: "全天", type: "💡 建議回應", title: "威尼斯入城費（Contributo di Accesso）說明", detail: "2026年威尼斯對一日遊旅客可能收取 €5 入城費，但入住酒店（含 Mestre）的過夜旅客豁免，因為酒店已代收城市稅（City Tax）。無需額外支付入城費。若需註冊，可在官網 cda.ve.it 申請豁免 QR Code。建議出發前再次確認最新政策。", budget: "€0（酒店已含）" },
@@ -168,7 +168,7 @@ export const days = [
       { time: "12:00", type: "🏨 退房", title: "退房 威尼斯廣場酒店", detail: "", budget: "" },
       { time: "12:00-15:45", type: "🚄 交通", title: "威尼斯 → 米蘭（高鐵）", detail: "約3小時45分", budget: "€40-60" },
       { time: "15:45-16:00", type: "🚶 交通", title: "Milano Centrale → 酒店", detail: "步行約12分鐘(1KM) 或巴士60/81約4分鐘", budget: "" },
-      { time: "14:00起", type: "🏨 住宿", title: "入住 米蘭嘉萊士烏納酒店", detail: "★★★★ | Piazza Lima 20124 - 2 | Tel: +39 02 2048 41 | ⚠️前台付住宿稅 €280", budget: "" },
+      { time: "14:00起", type: "🏨 住宿", title: "入住 米蘭嘉萊士烏納酒店", detail: "★★★★ | Piazza Lima 20124 - 2 | Tel: +39 02 2048 41 | ⚠️前台付住宿稅 €280 | ❄️ 有冷氣", budget: "" },
       { time: "午餐", type: "🍝 餐飲", title: "梅斯特/米蘭車站輕食", detail: "", budget: "€8-12" },
       { time: "晚餐", type: "🍝 餐飲", title: "Osteria Tajoli", detail: "家庭經營傳統餐館，近米蘭中央車站，道地倫巴第菜", budget: "€15-25" },
     { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "米蘭嘉萊士烏納酒店（Piazza Lima）周邊：① Carrefour Express — Corso Buenos Aires 57，步行約2分鐘，營業至22:00，最方便。② Esselunga — Viale Piave，步行約8分鐘，品種齊全的高級超市。③ Pam Local — Via Plinio 路口，24小時營業的便利店。", budget: "" },
@@ -256,10 +256,10 @@ export const cityStats = {
 };
 
 export const hotels = [
-  { city: "羅馬", name: "拿破崙酒店 (Hotel Napoleon)", stars: 4, address: "Piazza Vittorio Emanuele II 105, 00185 Rome", tel: "+39 06 4467 264", checkin: "7/26 14:00", checkout: "7/31 11:00" },
-  { city: "佛羅倫斯", name: "C-安巴夏特利酒店 (C-Hotels Ambasciatori)", stars: 4, address: "Via Alamanni, 3, Firenze 50123", tel: "+39 05 5287 421", email: "fi.ambasciatori@c-hotels.it", checkin: "7/31 15:00", checkout: "8/2 11:00" },
-  { city: "威尼斯", name: "威尼斯廣場酒店 (Hotel Plaza Venice)", stars: 4, address: "Viale Stazione, 36, 30171 Venice Mestre", tel: "+39 04 1929 388", email: "info@hotelplazavenice.com", checkin: "8/2 15:00", checkout: "8/4 12:00", note: "早餐 06:30-10:00" },
-  { city: "米蘭", name: "米蘭嘉萊士烏納酒店 (UNA Hotels Galles Milano)", stars: 4, address: "Piazza Lima 20124 - 2", tel: "+39 02 2048 41", email: "hotel.galles@unahotels.it", checkin: "8/4 14:00", checkout: "8/8 12:00", note: "前台支付住宿稅 €280" },
+  { city: "羅馬", name: "拿破崙酒店 (Hotel Napoleon)", stars: 4, address: "Piazza Vittorio Emanuele II 105, 00185 Rome", tel: "+39 06 4467 264", checkin: "7/26 14:00", checkout: "7/31 11:00", ac: true },
+  { city: "佛羅倫斯", name: "C-安巴夏特利酒店 (C-Hotels Ambasciatori)", stars: 4, address: "Via Alamanni, 3, Firenze 50123", tel: "+39 05 5287 421", email: "fi.ambasciatori@c-hotels.it", checkin: "7/31 15:00", checkout: "8/2 11:00", ac: true },
+  { city: "威尼斯", name: "威尼斯廣場酒店 (Hotel Plaza Venice)", stars: 4, address: "Viale Stazione, 36, 30171 Venice Mestre", tel: "+39 04 1929 388", email: "info@hotelplazavenice.com", ac: true, checkin: "8/2 15:00", checkout: "8/4 12:00", note: "早餐 06:30-10:00" },
+  { city: "米蘭", name: "米蘭嘉萊士烏納酒店 (UNA Hotels Galles Milano)", stars: 4, address: "Piazza Lima 20124 - 2", tel: "+39 02 2048 41", email: "hotel.galles@unahotels.it", ac: true, checkin: "8/4 14:00", checkout: "8/8 12:00", note: "前台支付住宿稅 €280" },
 ];
 
 export const checklist = [

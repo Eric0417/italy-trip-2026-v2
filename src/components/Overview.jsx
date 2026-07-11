@@ -89,6 +89,7 @@ export default function Overview() {
                     <div>📍 {hotel.address}</div>
                     {hotel.tel && <div>📞 {hotel.tel}</div>}
                     {hotel.email && <div>📧 {hotel.email}</div>}
+                    {hotel.ac && <div>❄️ 冷氣：有</div>}
                     <div style={{ marginTop: 6 }}>
                       <span style={{ background: colors.bg, color: colors.dark, padding: '2px 8px', borderRadius: 100, fontSize: '0.75rem' }}>
                         入住 {hotel.checkin}

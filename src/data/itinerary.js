@@ -40,7 +40,7 @@ export const days = [
       { time: "14:00", type: "🏨 住宿", title: "入住 拿破崙酒店", detail: "★★★★ | Piazza Vittorio Emanuele II 105, 00185 | Tel: +39 06 4467 264", budget: "" },
       { time: "晚餐", type: "🍝 餐飲", title: "La Famiglia", detail: "家庭式羅馬/阿布魯佐風味，步行可達，人均€15-30", budget: "€15-30" },
     { time: "全天", type: "💡 建議回應", title: "羅馬五日交通券方案", detail: "建議購買 ATAC 週票 CIS (Carta Integrata Settimanale) €24，有效期7天，可無限次搭乘地鐵、巴士、電車。購買地點：任一地鐵站自動售票機或 Tabacchi 煙草店。如不買週票，也可考慮 72小時票 €18 搭配單程票 €1.5。", budget: "€24" },
-    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市（宵夜採購）", detail: "拿破崙酒店周邊超市：① Carrefour Express — Via Giovanni Giolitti 近 Termini 車站，步行約6分鐘，營業至22:00。② Conad City — Via Merulana 與 Piazza Vittorio 路口，步行約4分鐘。③ Simply — Piazza Vittorio Emanuele II 市場旁，新鮮蔬果和熟食選擇多。", budget: "" },
+    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "拿破崙酒店周邊超市：① Carrefour Express — Via Giovanni Giolitti 近 Termini 車站，步行約6分鐘，營業至22:00。② Conad City — Via Merulana 與 Piazza Vittorio 路口，步行約4分鐘。③ Simply — Piazza Vittorio Emanuele II 市場旁，新鮮蔬果和熟食選擇多。", budget: "" },
     ]
   },
   {
@@ -53,7 +53,7 @@ export const days = [
       { time: "12:00-13:30", type: "🍝 午餐", title: "特斯塔西奧市場 (Mercato Testaccio)", detail: "在地人喜愛的美食市場，新鮮現做意麵€6-8、羅馬披薩€4-5", budget: "€10-15" },
       { time: "14:00-17:00", type: "🏛️ 景點", title: "威尼斯廣場 → 萬神殿 → 納沃納廣場", detail: "步行可達，沿途欣賞羅馬街景", budget: "" },
       { time: "晚餐", type: "🍝 餐飲", title: "La Famiglia 或 特斯塔西奧市場周邊", detail: "", budget: "€15-30" },
-    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市（宵夜採購）", detail: "拿破崙酒店周邊超市：① Carrefour Express — Via Giovanni Giolitti 近 Termini 車站，步行約6分鐘，營業至22:00。② Conad City — Via Merulana 與 Piazza Vittorio 路口，步行約4分鐘。③ Simply — Piazza Vittorio Emanuele II 市場旁，新鮮蔬果和熟食選擇多。", budget: "" },
+    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "拿破崙酒店周邊超市：① Carrefour Express — Via Giovanni Giolitti 近 Termini 車站，步行約6分鐘，營業至22:00。② Conad City — Via Merulana 與 Piazza Vittorio 路口，步行約4分鐘。③ Simply — Piazza Vittorio Emanuele II 市場旁，新鮮蔬果和熟食選擇多。", budget: "" },
     ]
   },
   {
@@ -66,7 +66,7 @@ export const days = [
       { time: "12:00-13:30", type: "🍝 午餐", title: "Vizi e Sfizi", detail: "家庭式小餐館，紙包魚、意麵、羅馬披薩，價格非常實惠", budget: "€10-15" },
       { time: "下午", type: "🏛️ 景點", title: "真理之口 → 西班牙階梯 → 許願池", detail: "", budget: "" },
       { time: "晚餐", type: "🍝 餐飲", title: "Luzzi 或 猶太區傳統菜", detail: "猶太區必試：炸朝鮮薊 Carciofi alla Giudia", budget: "€15-25" },
-    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市（宵夜採購）", detail: "拿破崙酒店周邊超市：① Carrefour Express — Via Giovanni Giolitti 近 Termini 車站，步行約6分鐘，營業至22:00。② Conad City — Via Merulana 與 Piazza Vittorio 路口，步行約4分鐘。③ Simply — Piazza Vittorio Emanuele II 市場旁，新鮮蔬果和熟食選擇多。", budget: "" },
+    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "拿破崙酒店周邊超市：① Carrefour Express — Via Giovanni Giolitti 近 Termini 車站，步行約6分鐘，營業至22:00。② Conad City — Via Merulana 與 Piazza Vittorio 路口，步行約4分鐘。③ Simply — Piazza Vittorio Emanuele II 市場旁，新鮮蔬果和熟食選擇多。", budget: "" },
     ]
   },
   {
@@ -82,7 +82,7 @@ export const days = [
       { time: "15:30-17:00", type: "⛪ 景點", title: "聖伯多祿大殿", detail: "世界最大教堂，可登頂俯瞰羅馬 (登頂電梯€10，樓梯€8)", budget: "€8-10" },
       { time: "17:00-19:00", type: "🌇 散步", title: "沿台伯河散步 → 人民廣場", detail: "沿途風景優美，有許多餐廳", budget: "" },
       { time: "晚餐", type: "🍝 餐飲", title: "人民廣場周邊餐廳", detail: "依現場人潮和菜單決定", budget: "€15-30" },
-    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市（宵夜採購）", detail: "拿破崙酒店周邊超市：① Carrefour Express — Via Giovanni Giolitti 近 Termini 車站，步行約6分鐘，營業至22:00。② Conad City — Via Merulana 與 Piazza Vittorio 路口，步行約4分鐘。③ Simply — Piazza Vittorio Emanuele II 市場旁，新鮮蔬果和熟食選擇多。", budget: "" },
+    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "拿破崙酒店周邊超市：① Carrefour Express — Via Giovanni Giolitti 近 Termini 車站，步行約6分鐘，營業至22:00。② Conad City — Via Merulana 與 Piazza Vittorio 路口，步行約4分鐘。③ Simply — Piazza Vittorio Emanuele II 市場旁，新鮮蔬果和熟食選擇多。", budget: "" },
     ]
   },
   {
@@ -95,7 +95,7 @@ export const days = [
       { time: "12:00-13:30", type: "🍝 午餐", title: "猶太區傳統料理", detail: "推薦：炸朝鮮薊 Carciofi alla Giudia，羅馬猶太區特色菜", budget: "€15-20" },
       { time: "下午", type: "🎒 自由活動", title: "最後的羅馬時光、紀念品採購", detail: "", budget: "" },
       { time: "晚餐", type: "🍝 餐飲", title: "回訪喜歡的餐廳或嘗試新餐廳", detail: "", budget: "€15-30" },
-    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市（宵夜採購）", detail: "拿破崙酒店周邊超市：① Carrefour Express — Via Giovanni Giolitti 近 Termini 車站，步行約6分鐘，營業至22:00。② Conad City — Via Merulana 與 Piazza Vittorio 路口，步行約4分鐘。③ Simply — Piazza Vittorio Emanuele II 市場旁，新鮮蔬果和熟食選擇多。", budget: "" },
+    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "拿破崙酒店周邊超市：① Carrefour Express — Via Giovanni Giolitti 近 Termini 車站，步行約6分鐘，營業至22:00。② Conad City — Via Merulana 與 Piazza Vittorio 路口，步行約4分鐘。③ Simply — Piazza Vittorio Emanuele II 市場旁，新鮮蔬果和熟食選擇多。", budget: "" },
     ]
   },
   {
@@ -110,7 +110,7 @@ export const days = [
       { time: "15:00", type: "🏨 住宿", title: "入住 C-安巴夏特利酒店", detail: "★★★★ | Via Alamanni, 3, 50123 | Tel: +39 05 5287 421", budget: "" },
       { time: "16:00", type: "🎨 景點", title: "烏菲茲美術館 (Uffizi Galleries)", detail: "🎯 已訂票 16:00 ｜世界著名藝術博物館", budget: "€20+" },
       { time: "晚餐", type: "🍝 餐飲", title: "Trattoria Le Mossacce", detail: "⭐⭐ 地道托斯卡納菜，近百年歷史，份量大 €15-25", budget: "€15-25" },
-    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市（宵夜採購）", detail: "C-安巴夏特利酒店周邊：① Conad City — Via Nazionale 13，步行約5分鐘，營業至21:00。② Carrefour Express — Via dei Banchi 與車站之間，步行約7分鐘。③ Mercato Centrale（中央市場）— 日間有新鮮食材，晚上部分攤位仍在營業。", budget: "" },
+    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "C-安巴夏特利酒店周邊：① Conad City — Via Nazionale 13，步行約5分鐘，營業至21:00。② Carrefour Express — Via dei Banchi 與車站之間，步行約7分鐘。③ Mercato Centrale（中央市場）— 日間有新鮮食材，晚上部分攤位仍在營業。", budget: "" },
     ]
   },
   {
@@ -125,7 +125,7 @@ export const days = [
       { time: "16:00-17:00", type: "🏛️ 景點", title: "領主廣場", detail: "露天雕塑博物館", budget: "" },
       { time: "17:00-18:00", type: "🌉 景點", title: "老橋 (Ponte Vecchio)", detail: "佛羅倫斯最古老橋樑，日落時分最美", budget: "" },
       { time: "晚餐", type: "🍝 餐飲", title: "Trattoria Marione", detail: "深受當地人喜愛，佛羅倫斯牛排聞名", budget: "€25" },
-    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市（宵夜採購）", detail: "C-安巴夏特利酒店周邊：① Conad City — Via Nazionale 13，步行約5分鐘，營業至21:00。② Carrefour Express — Via dei Banchi 與車站之間，步行約7分鐘。③ Mercato Centrale（中央市場）— 日間有新鮮食材，晚上部分攤位仍在營業。", budget: "" },
+    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "C-安巴夏特利酒店周邊：① Conad City — Via Nazionale 13，步行約5分鐘，營業至21:00。② Carrefour Express — Via dei Banchi 與車站之間，步行約7分鐘。③ Mercato Centrale（中央市場）— 日間有新鮮食材，晚上部分攤位仍在營業。", budget: "" },
     ]
   },
   {
@@ -141,7 +141,7 @@ export const days = [
       { time: "16:00-19:00", type: "🌊 景點", title: "威尼斯主島散步：聖馬可廣場 → 嘆息橋", detail: "傍晚光線最美，遊客較少", budget: "" },
       { time: "晚餐", type: "🍝 餐飲", title: "Osteria \"Alla Staffa\"", detail: "家庭式經營，正宗威尼斯菜：墨魚汁意麵、海鮮", budget: "€15-25" },
     { time: "全天", type: "💡 建議回應", title: "威尼斯入城費（Contributo di Accesso）說明", detail: "2026年威尼斯對一日遊旅客可能收取 €5 入城費，但入住酒店（含 Mestre）的過夜旅客豁免，因為酒店已代收城市稅（City Tax）。無需額外支付入城費。若需註冊，可在官網 cda.ve.it 申請豁免 QR Code。建議出發前再次確認最新政策。", budget: "€0（酒店已含）" },
-    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市（宵夜採購）", detail: "威尼斯廣場酒店（Mestre）周邊：① PAM Supermarket — Via Piave 31，步行約5分鐘，營業至20:30。② Ali Supermercati — Via Ca Rossa，稍遠但種類齊全。③ Despar — Viale Stazione 車站對面，最方便快速採購。", budget: "" },
+    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "威尼斯廣場酒店（Mestre）周邊：① PAM Supermarket — Via Piave 31，步行約5分鐘，營業至20:30。② Ali Supermercati — Via Ca Rossa，稍遠但種類齊全。③ Despar — Viale Stazione 車站對面，最方便快速採購。", budget: "" },
     ]
   },
   {
@@ -156,7 +156,7 @@ export const days = [
       { time: "16:00-17:00", type: "🛶 體驗", title: "貢多拉 (Gondola)", detail: "議價後約€80-100/艘(30分鐘)，建議在安靜小巷上船", budget: "€40-50/人" },
       { time: "17:00-18:30", type: "🎒 自由活動", title: "里亞爾托橋周邊購物", detail: "", budget: "" },
       { time: "晚餐", type: "🍝 餐飲", title: "Osteria \"Alla Staffa\" 或嘗試其他小館", detail: "", budget: "€15-25" },
-    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市（宵夜採購）", detail: "威尼斯廣場酒店（Mestre）周邊：① PAM Supermarket — Via Piave 31，步行約5分鐘，營業至20:30。② Ali Supermercati — Via Ca Rossa，稍遠但種類齊全。③ Despar — Viale Stazione 車站對面，最方便快速採購。", budget: "" },
+    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "威尼斯廣場酒店（Mestre）周邊：① PAM Supermarket — Via Piave 31，步行約5分鐘，營業至20:30。② Ali Supermercati — Via Ca Rossa，稍遠但種類齊全。③ Despar — Viale Stazione 車站對面，最方便快速採購。", budget: "" },
     ]
   },
   {
@@ -171,7 +171,7 @@ export const days = [
       { time: "14:00起", type: "🏨 住宿", title: "入住 米蘭嘉萊士烏納酒店", detail: "★★★★ | Piazza Lima 20124 - 2 | Tel: +39 02 2048 41 | ⚠️前台付住宿稅 €280", budget: "" },
       { time: "午餐", type: "🍝 餐飲", title: "梅斯特/米蘭車站輕食", detail: "", budget: "€8-12" },
       { time: "晚餐", type: "🍝 餐飲", title: "Osteria Tajoli", detail: "家庭經營傳統餐館，近米蘭中央車站，道地倫巴第菜", budget: "€15-25" },
-    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市（宵夜採購）", detail: "米蘭嘉萊士烏納酒店（Piazza Lima）周邊：① Carrefour Express — Corso Buenos Aires 57，步行約2分鐘，營業至22:00，最方便。② Esselunga — Viale Piave，步行約8分鐘，品種齊全的高級超市。③ Pam Local — Via Plinio 路口，24小時營業的便利店。", budget: "" },
+    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "米蘭嘉萊士烏納酒店（Piazza Lima）周邊：① Carrefour Express — Corso Buenos Aires 57，步行約2分鐘，營業至22:00，最方便。② Esselunga — Viale Piave，步行約8分鐘，品種齊全的高級超市。③ Pam Local — Via Plinio 路口，24小時營業的便利店。", budget: "" },
     ]
   },
   {
@@ -186,7 +186,7 @@ export const days = [
       { time: "下午/晚", type: "🖼️ 景點", title: "最後的晚餐 (Santa Maria delle Grazie)", detail: "🎯 確認預訂時間！達文西曠世壁畫，票極難搶", budget: "€15+" },
       { time: "可選", type: "🏰 景點", title: "斯福爾扎城堡 或 黃金四角區購物", detail: "城堡免費入場，黃金四角區：蒙提拿破崙街等名牌街", budget: "" },
       { time: "晚餐", type: "🍝 餐飲", title: "Ristorante Galleria", detail: "艾曼紐二世迴廊內，景觀一流，經典番紅花燉飯", budget: "€20-35" },
-    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市（宵夜採購）", detail: "米蘭嘉萊士烏納酒店（Piazza Lima）周邊：① Carrefour Express — Corso Buenos Aires 57，步行約2分鐘，營業至22:00，最方便。② Esselunga — Viale Piave，步行約8分鐘，品種齊全的高級超市。③ Pam Local — Via Plinio 路口，24小時營業的便利店。", budget: "" },
+    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "米蘭嘉萊士烏納酒店（Piazza Lima）周邊：① Carrefour Express — Corso Buenos Aires 57，步行約2分鐘，營業至22:00，最方便。② Esselunga — Viale Piave，步行約8分鐘，品種齊全的高級超市。③ Pam Local — Via Plinio 路口，24小時營業的便利店。", budget: "" },
     ]
   },
   {
@@ -201,7 +201,7 @@ export const days = [
       { time: "13:30-16:00", type: "🚢 景點", title: "乘船遊覽科莫湖", detail: "可前往貝拉焦 (Bellagio) 等小鎮，湖光山色", budget: "€15-20(船票)" },
       { time: "傍晚", type: "🚄 交通", title: "返回米蘭", detail: "", budget: "" },
       { time: "晚餐", type: "🍝 餐飲", title: "回訪喜愛餐廳 或 探索新區", detail: "", budget: "€15-30" },
-    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市（宵夜採購）", detail: "米蘭嘉萊士烏納酒店（Piazza Lima）周邊：① Carrefour Express — Corso Buenos Aires 57，步行約2分鐘，營業至22:00，最方便。② Esselunga — Viale Piave，步行約8分鐘，品種齊全的高級超市。③ Pam Local — Via Plinio 路口，24小時營業的便利店。", budget: "" },
+    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "米蘭嘉萊士烏納酒店（Piazza Lima）周邊：① Carrefour Express — Corso Buenos Aires 57，步行約2分鐘，營業至22:00，最方便。② Esselunga — Viale Piave，步行約8分鐘，品種齊全的高級超市。③ Pam Local — Via Plinio 路口，24小時營業的便利店。", budget: "" },
     ]
   },
   {
@@ -214,7 +214,7 @@ export const days = [
       { time: "12:00-13:30", type: "🍝 午餐", title: "布雷拉區餐廳", detail: "該區餐廳選擇豐富", budget: "€15-25" },
       { time: "下午", type: "🎒 自由活動", title: "納維利區 (Navigli) 運河畔漫步", detail: "米蘭夜生活區，運河兩旁有市集和餐廳", budget: "" },
       { time: "晚餐", type: "🍝 餐飲", title: "納維利區餐廳自由選擇", detail: "享受在米蘭最後一晚", budget: "€15-30" },
-    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市（宵夜採購）", detail: "米蘭嘉萊士烏納酒店（Piazza Lima）周邊：① Carrefour Express — Corso Buenos Aires 57，步行約2分鐘，營業至22:00，最方便。② Esselunga — Viale Piave，步行約8分鐘，品種齊全的高級超市。③ Pam Local — Via Plinio 路口，24小時營業的便利店。", budget: "" },
+    { time: "晚間", type: "💡 建議回應", title: "酒店附近超市", detail: "米蘭嘉萊士烏納酒店（Piazza Lima）周邊：① Carrefour Express — Corso Buenos Aires 57，步行約2分鐘，營業至22:00，最方便。② Esselunga — Viale Piave，步行約8分鐘，品種齊全的高級超市。③ Pam Local — Via Plinio 路口，24小時營業的便利店。", budget: "" },
     ]
   },
   {
